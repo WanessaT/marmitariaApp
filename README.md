@@ -1,51 +1,70 @@
-# Welcome to your Expo app 👋
+# 🥘 Dona Panela App — Sistema Mobile de Gestão para Marmitarias
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Aplicativo desenvolvido em **React Native (Expo)** para auxiliar no gerenciamento operacional da marmitaria fictícia **Dona Panela**, localizada no bairro Jardim das Oliveiras — Fortaleza/CE.
 
-## Get started
+O sistema oferece controle de pedidos, estoque, gastos, preços e relatórios, visando facilitar a organização de pequenos negócios alimentícios.
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## 📱 Funcionalidades
 
-2. Start the app
+### 📦 Controle de Pedidos
+- Cadastro de pedidos com tipo de marmita, quantidade e pagamento  
+- Lista com todos os pedidos do dia  
+- Observações por cliente  
 
-   ```bash
-   npx expo start
-   ```
+### 📊 Relatório Mensal
+- Total de pedidos  
+- Total faturado  
+- Total de gastos  
+- Lucro estimado  
 
-In the output, you'll find options to open the app in a
+### 💰 Controle de Preços
+- Cadastro e edição dos valores da marmita pequena, grande e mista  
+- Valores salvos diretamente no dispositivo (AsyncStorage)  
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### 📥 Controle de Estoque
+- Cadastro de insumos  
+- Atualização e deleção de itens  
+- Organização por categorias  
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### 📉 Registro de Gastos
+- Lançamento de despesas com insumos  
+- Histórico de gastos do mês  
 
-## Get a fresh project
+### 👤 Cadastro de Clientes
+- Nome, telefone e endereço  
+- Lista editável com todos os clientes registrados  
 
-When you're ready, run:
+---
 
-```bash
-npm run reset-project
-```
+## 🛠 Tecnologias Utilizadas
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+- **React Native (Expo)**
+- **TypeScript**
+- **Expo Router**
+- **AsyncStorage**
+- **React Hooks**
 
-## Learn more
+---
 
-To learn more about developing your project with Expo, look at the following resources:
+## ▶️ Como Executar
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+### 1. Clone o repositório
+git clone https://github.com/WanessaT/marmitariaApp.git
 
-## Join the community
+---
 
-Join our community of developers creating universal apps.
+### 2. Instale as dependências
+npm install
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
-# marmitariaApp
+---
+
+### 3. Inicie o app
+npx expo start
+
+---
+
+### 4. Teste no celular 
+- Instale Expo Go
+- Escaneie o QR Code exibido no terminal ou navegador
